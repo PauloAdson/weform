@@ -94,6 +94,10 @@ main footer a {
 
 /* Estilização da página cadastro entidade */
 
+/* main {
+    position: relative;
+} */
+
 main header {
     display: flex;
     align-items: center;
@@ -123,5 +127,23 @@ main form input {
     background: var(--white);
     border: 0.1rem solid var(--borda-padrao);
     border-radius: var(--borda-radius-padrao);
+}
 
+main form .points {
+    position: relative;
+}
+
+main form input+button {
+    position: absolute;
+    right: -3.8rem;
+    top: calc(2.7rem + 2rem);
+    background-color: transparent;
+    border: none;
+    color: var(--color-terciary);
+    font-size: 1px;
+    cursor: pointer;
+}
+
+.fa-circle-plus {
+    font-size: 2.4rem;
 }
