@@ -116,7 +116,7 @@ main form {
 main form label {
     font-size: 1.8rem;
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     display: block;
 }
 
@@ -148,11 +148,12 @@ main form .select-div::after {
     position: absolute;
     z-index: 1;
     top: 1.2rem;
-    right: 1.6rem;
+    right: 2rem;
     font-family: 'Font Awesome 5 Free';
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 600;
-    content: '\f063';
+    content: '\f078';
+    color: var(--color-terciary);
 }
 
 
